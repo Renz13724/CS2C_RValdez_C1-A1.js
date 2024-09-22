@@ -25,7 +25,7 @@ var course3 = "[Bachelor Of Science in Computer Science]";
 var year3 = "2";
 var dreamJob3 = "[Data Analysis]";
 
-var Name1= " Renz Galcon Valdez";
+var name1= " Renz Galcon Valdez";
 var classmate2Name = "Jenny Saquiton Naungayan";
 var   classmate3Name = "Karryle Banasan Lagrimas";
 
@@ -34,8 +34,8 @@ var c1NameRearrange = classmate2Name.split(" ");
 var c2NameRearrange = classmate3Name.split("");
 
 
-var studentNameAddC1AddC2 = Name1 + " " + classmate2Name + " " + classmate3Name;
-var name1Addname2Addname3 = name1 + " " + classmate2Name +" " + classmate3Name;
+var studentNameAddC1AddC2 = name1 + " " + classmate2name + " " + classmate3name;
+var name1Addname2Addname3 = name1 + " " + classmate2name +" " + classmate3name;
 
 console.log(name1.toUpperCase() + " was born " + birthDate1 + " at " + birthPlace1.toUpperCase() + ", and currently living at " + address1.toUpperCase()+".");
 console.log(name1.toLowerCase() + " is taking up " + course1.toLowerCase() + " and dreams to be " + dreamJob1 + " after graduation."); 
